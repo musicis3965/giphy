@@ -1,0 +1,31 @@
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+
+
+h1, p {
+    font-family: 'bocklinregular', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    color: rgb(202, 202, 0);
+    text-align:center;
+    }
+
+body {
+    background-color: rgb(46, 45, 45);
+}
+
+#buttons {
+    padding:1em;
+    text-align:center;
+}
+
+#form {
+    text-align:center;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+    }
