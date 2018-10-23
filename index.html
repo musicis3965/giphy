@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>That '70s Gifs!</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css.css">
   <!-- custom font sheet -->
   <link rel="stylesheet" type="text/css" href="assets/that-70s-font/webfontkit-20180926-161252/stylesheet.css">
@@ -12,7 +12,37 @@
 </head>
 
 <body>
-  <iframe src="https://musicis3965.github.io/portfolio-navbar/nav_bar.html" style="height:3.5em; width:100%; border:none;"></iframe>
+
+   <!--begin navbar stuff ------------------------------------------------------  -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="https://musicis3965.github.io/portfolio_new/about_web.html">bobby timmons &nbsp |</a>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              web developer
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">web developer</a>
+              <a class="dropdown-item" href="#">el other profession goes here</a>
+            </div>
+          </li>
+        </ul>
+        <a class="nav-item-active" id="leftiestLeft" href="https://musicis3965.github.io/portfolio_new/about_web.html">About</a><p>&nbsp&nbsp</p>
+        <a class="nav-item-active" href="https://musicis3965.github.io/portfolio_new/portfolio_web.html">Portfolio</a><p>&nbsp&nbsp</p>
+        <a class="nav-item-active" href="https://musicis3965.github.io/portfolio_new/contact.html">Contact</a><p>&nbsp&nbsp</p>
+      </button>
+    </nav>
+  <style>
+  .nav-item-active, .nav-item-active:hover, .nav-item-active:active, .nav-item-active:visited {
+    color:white;
+  }
+  #leftiestLeft {
+    margin-left: 5em; 
+  }
+  </style>
+   <!--end navbar stuff ------------------------------------------------------  -->
+  
   <div class="row">
     <div class="col-centered">
       <h1>That '70s Gifs!</h1>
@@ -21,7 +51,7 @@
       <div class id="buttons"></div>
     </div>
   </div>
-  <div class="row">
+  <!-- <div class="row">
     <div class="col-centered">
       <form id="form">
             <p>Or add your favorite character from the show!</p><br>
@@ -37,9 +67,11 @@
   <div class="row">
     <div class="col-1" id="gifss"></div>
   </div>
-  
+   -->
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <script type="text/javascript" src="assets/java.js"></script>
 </body>
 
